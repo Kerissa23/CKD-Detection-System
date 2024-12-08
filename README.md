@@ -1,4 +1,5 @@
-Cothon Solutions - Data Science Internship - WEEK 01
+Cothon Solutions - Data Science Internship 
+- WEEK 01
 Healthcare Data Analysis and Disease Prediction:
 # CKD-Predictor
 A machine learning-based system to predict Chronic Kidney Disease (CKD) using patient health metrics. This project uses Support Vector Machine(SVM) for classification and visualization tools to deliver accurate predictions and insightful reports.
