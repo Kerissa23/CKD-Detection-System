@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CKD Prediction</title>
+</head>
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+<body>
+    <div class="form-container">
+    <h2>
+        Predict CKD
+    </h2>
+    <form action="/predict" method="POST">
+        <label for="name">Name of the Patient:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="sg">Specific Gravity:</label>
+        <input type="text" id="sg" name="sg" required><br><br>
+        <label for="sc">Serum Creatinine:</label>
+        <input type="text" id="sc" name="sc" required><br><br>
+        <label for="hg">Hemoglobin:</label>
+        <input type="text" id="hg" name="hg" required><br><br>
+        <label for="rbcc">Red Blood Cell Count:</label>
+        <input type="text" id="rbcc" name="rbcc" required><br><br>
+        <label for="ht">Hypertension:</label>
+        <input type="text" id="ht" name="ht" required><br><br>
+
+
+        <input type="submit" value="Predict">
+    </form>
+    </div>
+</body>
+</html>

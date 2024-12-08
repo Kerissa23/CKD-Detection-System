@@ -1,0 +1,96 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f9fc;
+    margin: 100px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140vh;
+    overflow: visible;
+}
+
+h2 {
+    font-size: 20px !important;
+    color: darkblue !important;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+/* Form Container */
+.form-container {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 600px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    position: relative;
+    z-index: 10;
+}
+
+
+/* Title Styling */
+.form-container {
+    border: 2px solid black; /* Adds a visible red border */
+    background-color: #f9f9f9; /* Light background for contrast */
+    width: 800px; /* Fixed width for testing */
+    margin: 50px auto; /* Centers the container vertically */
+    padding: 20px; /* Adds internal spacing */
+    text-align: center;
+}
+
+
+/* Label Styling */
+form label {
+    display: block;
+    margin-top: 15px;
+    font-size: 1em;
+    color: #003366;
+    text-align: left;
+}
+
+/* Input Styling */
+form input, form select {
+    width: 80%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Input Focus Effect */
+form input:focus, form select:focus {
+    border-color: #003366;
+    outline: none;
+    box-shadow: 0px 0px 4px rgba(0, 51, 102, 0.3);
+}
+
+/* Button Styling */
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #003366; /* Dark Blue */
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #002244; /* Slightly darker blue */
+}
